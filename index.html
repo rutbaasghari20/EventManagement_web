@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- header section starts-->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>E</span>vent<span> M</span>anagement</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#services">services</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here..">
+        <label for="search-bar" class="fas fa-search"></label>
+
+    </form>
+</header>
+
+
+
+<!-- header section ends-->
+
+<!-- login form container-->
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forgot password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">register now</a></p>
+
+    </form>
+</div>
+
+
+<!-- home section starts-->
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>Give Your Events a Royal Look</h3>
+        <a href="#" class="btn">see how it works</a>
+
+    </div>
+    <div class="controls">
+        <span class="img-btn active" data-src="img1.jpg"></span>
+        <span class="img-btn" data-src="img2.webp"></span>
+        <span class="img-btn" data-src="img3.jpg"></span>
+        <span class="img-btn" data-src="img4.jpg"></span>
+
+    </div>
+
+    <div class="image-container">
+        <img src="img1.jpg" id="image-slider" ></img>
+    </div>
+
+
+</section>
+<!-- home section ends-->
+
+
+<!-- book section starts-->
+
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="book.png" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>where</h3>
+                <input type="text" placeholder="place name">
+            </div>
+
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="text" placeholder="number of guests">
+            </div>
+
+            <div class="inputBox">
+                <h3>when</h3>
+                <input type="date">
+            </div>
+
+            <input type="submit" class="btn" value="book now">
+        </form>
+    </div>
+</section>
+<!-- book section ends-->
+
+<!-- services section starts-->
+
+<section class="services" id="services">
+    <h1 class="heading">Our Best Services For You</h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="partyhall.jpg" alt="">
+            <div class="content">
+                <h3>Party Halls</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="salon.jpg" alt="">
+            <div class="content">
+                <h3>Salons</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="catering.jpg" alt="">
+            <div class="content">
+                <h3>Catering Services</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="designer.jpg" alt="">
+            <div class="content">
+                <h3>Dress designers</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="organizer.jpg" alt="">
+            <div class="content">
+                <h3>event organizers</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="stage.webp" alt="">
+            <div class="content">
+                <h3>stage decoration</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="light.webp" alt="">
+            <div class="content">
+                <h3>Lighting decoration</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="rent.jpg" alt="">
+            <div class="content">
+                <h3>rent a car</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- services section ends-->
+
+
+<!-- footer section starts-->
+
+<section class="footer">
+    <div class="box-container">
+        
+        <div class="box">
+            <h3>contact us</h3>
+            <a href="#">customercare@eventmanagement.com</a>
+            <a href="#">111-222-333</a>
+        </div>
+
+        <div class="box">
+            <h3>location</h3>
+            <a href="#">karachi</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">services</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>Follow us on</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+            <a href="#">pinterest</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit">created by <span>Ms. Rutba Asghari</span> | all copyrights reserved! |</h1>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link-->
+<script src="script.js"></script>
+</body>
+</html>
